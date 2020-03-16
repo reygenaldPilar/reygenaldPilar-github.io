@@ -1,0 +1,140 @@
+@font-face{ 
+    src: url(font/Raleway-Regular.ttf);
+    font-family: rale;
+}
+
+
+@font-face{ 
+    src: url(font/MetalMania-Regular.ttf);
+    font-family: met;
+}
+
+
+ @font-face{ 
+    src: url(font/Booter\ -\ Zero\ Zero.ttf);
+    font-family: boot;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+
+
+html body{
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul{
+    margin: 0;
+}
+
+.nav li{
+    display: inline;
+}
+
+.nav a{
+    display: inline-block;
+    padding: 10px;
+    color: wheat;
+    text-decoration: none;
+    text-align: end;
+}
+
+.nav a:hover{
+    background-color: rgba(255, 255, 255, .6);
+}
+
+
+.main-nav{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255,255,255,.3);
+}
+
+.main-nav li{
+    padding: 0 1%;
+}
+
+.band-name{
+    text-align: center;
+    font-family: boot;
+    padding: 0;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    font-size: 100px;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+}
+
+.main-header{
+    background-color: rgba(0,0,0,.6);
+    background-image: url("background.jpg");
+    background-blend-mode: multiply;
+    padding-bottom: 1px;
+}
+
+.band-name-large{
+    font-size: 12em;
+  
+}
+
+.content-section{
+    margin: 1em;
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.content-header{
+    font-family: met;
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.about-band-img{
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+    border-radius: 50%;
+}
+
+.paragraph{
+    font-family: rale;
+}
+
+.main-footer{
+    background-color: rgb(11, 177, 243);
+    color: white;
+    padding: .1em 0;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.main-footer a:hover{
+    background-color: rgba(255, 255, 255, .6);
+}
+
+
+
+.foorter-nav img{
+    width: 30px;
+    height: 30px;
+}
+
+.pos{
+    text-align: center;
+    background-color: lawngreen;
+    padding: 2.5em;
+}
